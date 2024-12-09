@@ -1,0 +1,22 @@
+{
+  "name": "gaze",
+  "module": "src/main.ts",
+  "version":"0.0.1",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "@parcel/watcher"
+  ],
+  "dependencies": {
+    "@effect/platform": "^0.70.6",
+    "@effect/platform-bun": "^0.50.6",
+    "effect": "^3.11.4"
+  }
+}
